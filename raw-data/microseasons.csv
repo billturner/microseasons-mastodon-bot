@@ -1,0 +1,73 @@
+id,division_id,start_month,start_day,end_month,end_day,description_jp,description
+1,1,2,4,2,8,東風解凍 Harukaze kōri o toku,East wind melts the ice
+2,1,2,9,2,13,黄鶯睍睆 Kōō kenkan su,Bush warblers start singing in the mountains
+3,1,2,14,2,18,魚上氷 Uo kōri o izuru,Fish emerge from the ice
+4,2,2,19,2,23,土脉潤起 Tsuchi no shō uruoi okoru,Rain moistens the soil
+5,2,2,24,2,28,霞始靆 Kasumi hajimete tanabiku,Mist starts to linger
+6,2,3,1,3,5,草木萌動 Sōmoku mebae izuru,"Grass sprouts, trees bud"
+7,3,3,6,3,10,蟄虫啓戸 Sugomori mushito o hiraku,Hibernating insects surface
+8,3,3,11,3,15,桃始笑 Momo hajimete saku,First peach blossoms
+9,3,3,16,3,20,菜虫化蝶 Namushi chō to naru,Caterpillars become butterflies
+10,4,3,21,3,25,雀始巣 Suzume hajimete sukū,Sparrows start to nest
+11,4,3,26,3,30,櫻始開 Sakura hajimete saku,First cherry blossoms
+12,4,3,31,4,4,雷乃発声 Kaminari sunawachi koe o hassu,Distant thunder
+13,5,4,5,4,9,玄鳥至 Tsubame kitaru,Swallows return
+14,5,4,10,4,14,鴻雁北 Kōgan kaeru,Wild geese fly north
+15,5,4,15,4,19,虹始見 Niji hajimete arawaru,First rainbows
+16,6,4,20,4,24,葭始生 Ashi hajimete shōzu,First reeds sprout
+17,6,4,25,4,29,霜止出苗 Shimo yamite nae izuru,"Last frost, rice seedlings grow"
+18,6,4,30,5,4,牡丹華 Botan hana saku,Peonies bloom
+19,7,5,4,5,9,蛙始鳴 Kawazu hajimete naku,Frogs start singing
+20,7,5,10,5,14,蚯蚓出 Mimizu izuru,Worms surface
+21,7,5,15,5,20,竹笋生 Takenoko shōzu,Bamboo shoots sprout
+22,8,5,21,5,25,蚕起食桑 Kaiko okite kuwa o hamu,Silkworms start feasting on mulberry leaves
+23,8,5,26,5,30,紅花栄 Benibana sakau,Safflowers bloom
+24,8,5,31,6,5,麦秋至 Mugi no toki itaru,Wheat ripens and is harvested
+25,9,6,6,6,10,蟷螂生 Kamakiri shōzu,Praying mantises hatch
+26,9,6,11,6,15,腐草為螢 Kusaretaru kusa hotaru to naru,Rotten grass becomes fireflies
+27,9,6,16,6,20,梅子黄 Ume no mi kibamu,Plums turn yellow
+28,10,6,21,6,26,乃東枯 Natsukarekusa karuru,Self-heal withers
+29,10,6,27,7,1,菖蒲華 Ayame hana saku,Irises bloom
+30,10,7,2,7,6,半夏生 Hange shōzu,Crow-dipper sprouts
+31,11,7,7,7,11,温風至 Atsukaze itaru,Warm winds blow
+32,11,7,12,7,16,蓮始開 Hasu hajimete hiraku,First lotus blossoms
+33,11,7,17,7,22,鷹乃学習 Taka sunawachi waza o narau,Hawks learn to fly
+34,12,7,23,7,28,桐始結花 Kiri hajimete hana o musubu,Paulownia trees produce seeds
+35,12,7,29,8,2,土潤溽暑 Tsuchi uruōte mushi atsushi,"Earth is damp, air is humid"
+36,12,8,3,8,7,大雨時行 Taiu tokidoki furu,Great rains sometimes fall
+37,13,8,8,8,12,涼風至 Suzukaze itaru,Cool winds blow
+38,13,8,13,8,17,寒蝉鳴 Higurashi naku,Evening cicadas sing
+39,13,8,18,8,22,蒙霧升降 Fukaki kiri matō,Thick fog descends
+40,14,8,23,8,27,綿柎開 Wata no hana shibe hiraku,Cotton flowers bloom
+41,14,8,28,9,1,天地始粛 Tenchi hajimete samushi,Heat starts to die down
+42,14,9,2,9,7,禾乃登 Kokumono sunawachi minoru,Rice ripens
+43,15,9,8,9,12,草露白 Kusa no tsuyu shiroshi,Dew glistens white on grass
+44,15,9,13,9,17,鶺鴒鳴 Sekirei naku,Wagtails sing
+45,15,9,18,9,22,玄鳥去 Tsubame saru,Swallows leave
+46,16,9,23,9,27,雷乃収声 Kaminari sunawachi koe o osamu,Thunder ceases
+47,16,9,28,10,2,蟄虫坏戸 Mushi kakurete to o fusagu,Insects hole up underground
+48,16,10,3,10,7,水始涸 Mizu hajimete karuru,Farmers drain fields
+49,17,10,8,10,12,鴻雁来 Kōgan kitaru,Wild geese return
+50,17,10,13,10,17,菊花開 Kiku no hana hiraku,Chrysanthemums bloom
+51,17,10,18,10,22,蟋蟀在戸 Kirigirisu to ni ari,Crickets chirp around the door
+52,18,10,23,10,27,霜始降 Shimo hajimete furu,First frost
+53,18,10,28,11,1,霎時施 Kosame tokidoki furu,Light rains sometimes fall
+54,18,11,2,11,6,楓蔦黄 Momiji tsuta kibamu,Maple leaves and ivy turn yellow
+55,19,11,7,11,11,山茶始開 Tsubaki hajimete hiraku,Camellias bloom
+56,19,11,12,11,16,地始凍 Chi hajimete kōru,Land starts to freeze
+57,19,11,17,11,21,金盞香 Kinsenka saku,Daffodils bloom
+58,20,11,22,11,26,虹蔵不見 Niji kakurete miezu,Rainbows hide
+59,20,11,27,12,1,朔風払葉 Kitakaze konoha o harau,North wind blows the leaves from the trees
+60,20,12,2,12,6,橘始黄 Tachibana hajimete kibamu,Tachibana citrus tree leaves start to turn yellow
+61,21,12,7,12,11,閉塞成冬 Sora samuku fuyu to naru,"Cold sets in, winter begins"
+62,21,12,12,12,16,熊蟄穴 Kuma ana ni komoru,Bears start hibernating in their dens
+63,21,12,17,12,21,鱖魚群 Sake no uo muragaru,Salmon gather and swim upstream
+64,22,12,22,12,26,乃東生 Natsukarekusa shōzu,Self-heal sprouts
+65,22,12,27,12,31,麋角解 Sawashika no tsuno otsuru,Deer shed antlers
+66,22,1,1,1,4,雪下出麦 Yuki watarite mugi nobiru,Wheat sprouts under snow
+67,23,1,5,1,9,芹乃栄 Seri sunawachi sakau,Parsley flourishes
+68,23,1,10,1,14,水泉動 Shimizu atataka o fukumu,Springs thaw
+69,23,1,15,1,19,雉始雊 Kiji hajimete naku,Pheasants start to call
+70,24,1,20,1,24,款冬華 Fuki no hana saku,Butterburs bud
+71,24,1,25,1,29,水沢腹堅 Sawamizu kōri tsumeru,Ice thickens on streams
+72,24,1,30,2,3,鶏始乳 Niwatori hajimete toya ni tsuku,Hens start laying eggs
