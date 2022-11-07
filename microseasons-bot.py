@@ -101,8 +101,14 @@ if __name__ == "__main__":
         new_post += f'{current_microseason[7]} ({current_microseason[6]})\n\n\n'
         new_post += f'This microseason will last until '
         new_post += f'{get_month_name(current_microseason[4])} {current_microseason[5]}.'
-
         print(new_post)
+
+        # post to Mastodon
+        mastodon = Mastodon(
+            access_token = mastodon_access_token,
+            api_base_url = mastodon_base_url
+        )
+        mastodon.toot(new_post)
 
         # Update the db with currently active microseason
         reset_active_microseason(conn, current_microseason[0])
