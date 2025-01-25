@@ -1,6 +1,7 @@
 from calendar import isleap
 from datetime import date, datetime, timedelta
 from mastodon import Mastodon
+from atproto import Client
 import os
 import sqlite3
 import sys
@@ -68,12 +69,30 @@ def get_end_date(microseason) -> str:
 
     return will_end.strftime('%B %-d')
 
+def post_to_mastodon(mastodon_base_url, mastodon_access_token, new_post):
+    mastodon = Mastodon(
+        access_token = mastodon_access_token,
+        api_base_url = mastodon_base_url
+    )
+    mastodon.toot(new_post)
+
+def post_to_bluesky(bsky_user, bsky_password, new_post):
+    bsky_client = Client()
+    bsky_client.login(bsky_user, bsky_password)
+
+    # first, clear the extra newlines
+    new_post = new_post.replace('\n\n\n', '\n\n')
+
+    bsky_client.send_post(new_post)
+
 if __name__ == "__main__":
     # Get ENV variables, or fail
     mastodon_base_url = os.getenv('MASTODON_BASE_URL')
     mastodon_access_token = os.getenv('MASTODON_ACCESS_TOKEN')
+    bsky_user = os.getenv('BSKY_USER')
+    bsky_password = os.getenv('BSKY_PASSWORD')
     if not mastodon_base_url and not mastodon_access_token:
-        sys.exit('The MASTODON_BASE_URL and MASTODON_ACCESS_TOKEN environment variables are missing. Exiting.')
+        sys.exit('One of the following ENV variables are missing: MASTODON_BASE_URL, MASTODON_ACCESS_TOKEN, BSKY_USER, or BSKY_PASSWORD. Exiting.')
 
     # set up db connection
     conn = sqlite3.connect("microseasons.db")
@@ -103,11 +122,10 @@ if __name__ == "__main__":
 
         if not DEBUG:
             # post to Mastodon
-            mastodon = Mastodon(
-                access_token = mastodon_access_token,
-                api_base_url = mastodon_base_url
-            )
-            mastodon.toot(new_post)
+            post_to_mastodon(mastodon_base_url, mastodon_access_token, new_post)
+
+            # post to Bluesky
+            post_to_bluesky(bsky_user, bsky_password, new_post)
 
             # Update the db with currently active microseason
             reset_active_microseason(conn, current_microseason[0])
