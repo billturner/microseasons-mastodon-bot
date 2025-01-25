@@ -23,7 +23,7 @@ You will need four ENV variables to store the Mastodon and Bluesky credentials:
 
 Acknowledgements
 
-- Many, many thanks and <3 to @muffinista@botsin.space for hosting this bot on https://botsin.space/ for so long.
+- Many, many thanks and <3 to [Colin Mitchell](https://muffin.industries/@colin) for hosting this bot on https://botsin.space/ for so long.
 - Thanks for the [Bluesky posting instructions](https://python.plainenglish.io/creating-your-first-post-with-python-and-the-bluesky-api-c20726835d7d) by Filip Melka.
 
 TODO
